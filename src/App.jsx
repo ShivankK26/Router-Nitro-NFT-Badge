@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 function App() {
 
-  const [url,setUrl]=useState<string>("Mint")
+  const [url,setUrl]=useState("Mint")
 
   let abi=[
 	{
